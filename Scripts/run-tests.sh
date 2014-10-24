@@ -7,6 +7,6 @@ export JAVA_TOOL_OPTIONS='-Djava.awt.headless=true'
           :AppUnitTests:jacocoTestReport \
           :AppComponentTests:testDebug \
           :AppComponentTests:jacocoTestReport \
-          :App:connectedCheck
+          :App:connectedCheck --info --stacktrace --debug
 
 echo "test reports: $(pwd)/build/index.html"
