@@ -24,7 +24,7 @@ android {
         }
         debug {
             runProguard false
-            testCoverageEnabled = true
+            testCoverageEnabled = false
         }
     }
 
