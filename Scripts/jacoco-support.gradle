@@ -15,7 +15,7 @@ jacocoTestReport {
         html.enabled = true
     }
     // class R is used, but usage will not be covered, so ignore this class from report
-    classDirectories = fileTree(dir: '../App/build/intermediates/classes/debug', exclude: 'com/example/R*.class')
+    classDirectories = fileTree(dir: '../App/build/intermediates/classes/debug', exclude: ['com/example/R*.class', 'com/example/BuildConfig.class'] )
     additionalSourceDirs = files(coverageSourceDirs)
     executionData = files('build/jacoco/testDebug.exec')
 }
