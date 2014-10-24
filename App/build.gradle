@@ -85,16 +85,6 @@ apt {
         resourcePackageName 'com.example'
     }
 }
-coverage {
-    exclusions = [
-            '*/BuildConfig*',
-            'BuildConfig*',
-            "BuildConfig*",
-            'BuildConfig',
-            'BuildConfig*',
-            'BuildConfig.class'
-    ]
-}
 
 def obtainCurrentIpAddress() {
     InetAddress inetAddr = InetAddress.getLocalHost();
