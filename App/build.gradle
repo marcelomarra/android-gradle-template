@@ -91,7 +91,8 @@ coverage {
             'BuildConfig*',
             "BuildConfig*",
             'BuildConfig',
-            'BuildConfig*'
+            'BuildConfig*',
+            'BuildConfig.class'
     ]
 }
 
