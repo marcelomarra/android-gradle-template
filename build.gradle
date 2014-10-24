@@ -16,7 +16,7 @@ subprojects {
     group = 'com.example'
 
     ext.androidToolsBuildGradle     = '0.12.+'
-    ext.androidBuildToolsVersion    = '21.0.0';
+    ext.androidBuildToolsVersion    = '21.0.2';
     ext.androidMinSdkVersion        = 9;
     ext.androidCompileSdkVersion    = 21;
     ext.androidTargetSdkVersion     = 21;
